@@ -1,0 +1,15 @@
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\bin\Debug\net8.0\selectionsort.exe
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\bin\Debug\net8.0\selectionsort.deps.json
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\bin\Debug\net8.0\selectionsort.runtimeconfig.json
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\bin\Debug\net8.0\selectionsort.dll
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\bin\Debug\net8.0\selectionsort.pdb
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.AssemblyInfoInputs.cache
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.AssemblyInfo.cs
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.csproj.CoreCompileInputs.cache
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.sourcelink.json
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.dll
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\refint\selectionsort.dll
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.pdb
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\selectionsort.genruntimeconfig.cache
+c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\selectionsort\selectionsort\obj\Debug\net8.0\ref\selectionsort.dll
