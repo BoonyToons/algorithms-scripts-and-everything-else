@@ -1,0 +1,15 @@
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\bin\Debug\net8.0\linearsearch.exe
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\bin\Debug\net8.0\linearsearch.deps.json
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\bin\Debug\net8.0\linearsearch.runtimeconfig.json
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\bin\Debug\net8.0\linearsearch.dll
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\bin\Debug\net8.0\linearsearch.pdb
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.GeneratedMSBuildEditorConfig.editorconfig
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.AssemblyInfoInputs.cache
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.AssemblyInfo.cs
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.csproj.CoreCompileInputs.cache
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.sourcelink.json
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.dll
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\refint\linearsearch.dll
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.pdb
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\linearsearch.genruntimeconfig.cache
+c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\linearsearch\linearsearch\obj\Debug\net8.0\ref\linearsearch.dll
