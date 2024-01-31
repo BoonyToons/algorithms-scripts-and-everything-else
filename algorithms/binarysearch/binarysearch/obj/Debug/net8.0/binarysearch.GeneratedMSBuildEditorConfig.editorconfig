@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = binarysearch
-build_property.ProjectDir = c:\Users\olive\OneDrive\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\binarysearch\binarysearch\
+build_property.ProjectDir = c:\Users\O\Documents\GitHub\algorithms-scripts-and-everything-else\algorithms\binarysearch\binarysearch\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

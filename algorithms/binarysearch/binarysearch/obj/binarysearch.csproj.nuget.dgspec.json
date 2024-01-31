@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\olive\\OneDrive\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj": {}
+    "c:\\Users\\O\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj": {}
   },
   "projects": {
-    "c:\\Users\\olive\\OneDrive\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj": {
+    "c:\\Users\\O\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\olive\\OneDrive\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj",
+        "projectUniqueName": "c:\\Users\\O\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj",
         "projectName": "binarysearch",
-        "projectPath": "c:\\Users\\olive\\OneDrive\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj",
-        "packagesPath": "C:\\Users\\olive\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\olive\\OneDrive\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\obj\\",
+        "projectPath": "c:\\Users\\O\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\binarysearch.csproj",
+        "packagesPath": "C:\\Users\\O\\.nuget\\packages\\",
+        "outputPath": "c:\\Users\\O\\Documents\\GitHub\\algorithms-scripts-and-everything-else\\algorithms\\binarysearch\\binarysearch\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\olive\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\O\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,6 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {

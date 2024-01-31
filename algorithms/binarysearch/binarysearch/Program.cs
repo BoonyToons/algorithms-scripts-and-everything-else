@@ -11,7 +11,7 @@ class BinarySearch {
     }
 
     static void Binary(int[] numbers, int num) {
-        int high = numbers.Length - 1;
+        int high = numbers.Length;
         int low = 0;
         int middle;
 
@@ -19,9 +19,10 @@ class BinarySearch {
             middle = low + (high - low) / 2;
             if(num == numbers[middle]) {
                 Console.WriteLine(num);
+                break;
             }
             else if(num > numbers[middle]) {
-                low = middle;
+                low = middle + 1;
             }
             else if(num < numbers[middle]) {
                 high = middle;
