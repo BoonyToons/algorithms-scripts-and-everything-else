@@ -6,7 +6,7 @@ import (
 
 type Node struct {
 	value int
-	next struct
+	next *Node
 }
 
 func (node *Node) fNode() (int) {
@@ -14,7 +14,7 @@ func (node *Node) fNode() (int) {
 } 
 
 func main() {
-	node := Node{15}
+	node := Node{15, nil}
 
 	fmt.Print(node.fNode())
 }
