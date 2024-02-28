@@ -28,28 +28,34 @@ func (queue *Queue) enqueue(val interface{}) {
 		queue.head = newNode 
 		queue.tail = newNode
 	} else {
-		newNode.next = queue.tail
+		queue.tail.next = newNode
 		queue.tail = newNode
 	}
 	queue.length++
 }
 
 func (queue *Queue) dequeue() interface{} {
-	returnValue := "There are not enough elements in this queue to remove"
+	var returnValue interface{} = "There are not enough elements in this queue to remove" 
 	if queue.length > 0 {
 		returnValue = queue.head.value
-		
+		queue.head = queue.head.next
 		queue.length--
 	}
+
 	return returnValue
 }
 
 func (queue *Queue) peek() interface{} {
-	return queue.head.value
+	var returnValue interface{} = "There is no value to return"
+	if queue.length != 0 {
+		returnValue = queue.head.value
+	}
+
+	return returnValue
 }
  
 func (queue *Queue) printQueue() {
-	printValue := queue.tail
+	printValue := queue.head
 	if queue.length > 1 {
 		for i:=0; i<queue.length; i++ {
 			fmt.Printf("%v ", printValue.value)
@@ -61,18 +67,24 @@ func (queue *Queue) printQueue() {
 	} else {
 		fmt.Println("There are no elements in this queue to print")
 	}
-	
 }
 
 
 func main() {
 	fmt.Println("---- This is a Queue Data Structure ----")
 	newQueue := Queue{}
+	fmt.Println(newQueue.dequeue())
+	fmt.Println(newQueue.peek())
+	newQueue.printQueue()
 	newQueue.enqueue(15)
 	newQueue.enqueue(33)
 	newQueue.enqueue("Hello there")
 	newQueue.enqueue(true)
-
+	newQueue.printQueue()
 	fmt.Println(newQueue.peek())
+
+	newQueue.dequeue()
+
+	
 	newQueue.printQueue()
 }
