@@ -19,6 +19,8 @@ type queueInterface interface {
 	enqueue()
 	dequeue()
 	peek()
+	getLength()
+	isEmpty()
 	printQueue()
 }
 
@@ -53,6 +55,20 @@ func (queue *Queue) peek() interface{} {
 
 	return returnValue
 }
+
+func (queue *Queue) isEmpty() bool {
+	returnValue := true
+
+	if queue.length > 0 {
+		returnValue = false
+	}
+
+	return returnValue
+}
+
+func (queue *Queue) getLength() int {
+	return queue.length
+}
  
 func (queue *Queue) printQueue() {
 	printValue := queue.head
@@ -76,15 +92,22 @@ func main() {
 	fmt.Println(newQueue.dequeue())
 	fmt.Println(newQueue.peek())
 	newQueue.printQueue()
+
+	fmt.Printf("Is the Queue empty? %v\n", newQueue.isEmpty())
+	fmt.Printf("What is the Queue length? %v\n", newQueue.length)
+
 	newQueue.enqueue(15)
 	newQueue.enqueue(33)
 	newQueue.enqueue("Hello there")
 	newQueue.enqueue(true)
 	newQueue.printQueue()
+	fmt.Printf("What is the Queue length? %v\n", newQueue.length)
 	fmt.Println(newQueue.peek())
 
 	newQueue.dequeue()
+	fmt.Printf("Is the Queue empty? %v\n", newQueue.isEmpty())
 
 	
 	newQueue.printQueue()
+	fmt.Printf("What is the Queue length? %v\n", newQueue.length)
 }
