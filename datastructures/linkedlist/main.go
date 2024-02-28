@@ -54,6 +54,23 @@ func (l *LinkedList) printList() {
 	fmt.Println("")
 }
 
+func (l *LinkedList) removeFirst() int {
+	returnNode := l.head
+	if l.head != nil {
+		if l.length == 1 {
+			l.head = nil 
+			l.tail = nil 
+			returnNode = l.head
+		} else {
+			l.head = l.head.next
+		}
+
+		l.length--
+	}
+
+	return returnNode.value
+}
+
 func (l *LinkedList) getHead() int {
 	return l.head.value
 }
@@ -76,4 +93,8 @@ func main() {
 	linkedlist.addLast(88)
 	linkedlist.printList()
 	fmt.Println(linkedlist.getTail())
+
+	fmt.Println(linkedlist.removeFirst())
+
+	linkedlist.printList()
 }
