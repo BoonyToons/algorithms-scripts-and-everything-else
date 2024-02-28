@@ -4,17 +4,25 @@ import (
 	"fmt"
 )
 
-type Node struct {
-	value int
-	next *Node
+type node[T any] struct {
+	value T
+	next *node[T]
 }
 
-func (node *Node) fNode() (int) {
-	return node.value
-} 
+type Queue[T any] struct {
+	length int
+	head *node[T]
+	tail *node[T]
+}
+
+type queueInterface interface {
+	enqueue()
+	dequeue()
+	peek()
+}
+ 
 
 func main() {
-	node := Node{15, nil}
+	fmt.Println("---- This is a Queue Data Structure ----")
 
-	fmt.Print(node.fNode())
 }
