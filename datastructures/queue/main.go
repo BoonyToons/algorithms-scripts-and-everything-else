@@ -79,7 +79,7 @@ func (queue *Queue) printQueue() {
 		}
 		fmt.Println("")
 	} else if queue.length == 1 {
-		fmt.Println("%v ", printValue.value)
+		fmt.Println(printValue.value)
 	} else {
 		fmt.Println("There are no elements in this queue to print")
 	}
