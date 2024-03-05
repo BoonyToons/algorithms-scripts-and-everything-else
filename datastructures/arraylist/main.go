@@ -4,17 +4,17 @@ import (
 	"fmt"
 )
 
-type ArrayList[T any] struct {
+type ArrayList[arrType any] struct {
 	itemLength int
 	arrayLength int
-	newArray []T
+	newArray []arrType
 }
 
-func NewArrayList[T any](arrayLength int) *ArrayList[T] {
-	return &ArrayList[T] {
+func NewArrayList[arrType any](arrayLength int) *ArrayList[arrType] {
+	return &ArrayList[arrType] {
 		itemLength: 0,
 		arrayLength: arrayLength,
-		newArray: make([]T, arrayLength),
+		newArray: make([]arrType, arrayLength),
 	}
 }
 
@@ -27,6 +27,6 @@ type arrayListInterface interface {
 func main() {
 	fmt.Println("---- This is an ArrayList Data Structure ----")
 
-	list := NewArrayList[int](6)
+	list := NewArrayList[int](10)
 	fmt.Println(list)
 }
