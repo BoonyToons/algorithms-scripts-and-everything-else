@@ -10,20 +10,23 @@ type ArrayList[T any] struct {
 	newArray []T
 }
 
-type arrayListInterface interface {
-	NewArrayList()
+func NewArrayList[T any](arrayLength int) *ArrayList[T] {
+	return &ArrayList[T] {
+		itemLength: 0,
+		arrayLength: arrayLength,
+		newArray: make([]T, arrayLength),
+	}
 }
 
-func (list *ArrayList) NewArrayList(initialSize int) *ArrayList {
-	return &list{
-		itemLength: 0
-		arrayLength: initialSize
-		newArray: []
-	}
+type arrayListInterface interface {
+	push()
 }
 
 
 
 func main() {
 	fmt.Println("---- This is an ArrayList Data Structure ----")
+
+	list := NewArrayList[int](6)
+	fmt.Println(list)
 }
